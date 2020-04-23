@@ -21,3 +21,13 @@ permalink: /:categories/:year/:month/:day/:title
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
+
+# Precommit checks
+pre-commit:
+  - check: FrontMatterVariableExists
+    variables: ['basename', 'short_title', 'title']
+  - check: FrontMatterVariableIsNotDuplicate
+    variables: ['basename', 'short_title', 'title']
+  - check: FrontMatterVariableMeetsLengthRequirements
+    variables: ['title', 'basename||20', 'short_title||20']
+  - check: NoDuplicateTags
