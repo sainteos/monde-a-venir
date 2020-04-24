@@ -3,7 +3,9 @@
 backend:
   name: gitlab
   repo: hexiea_feint/monde-a-venir
-
+  auth_type: implicit
+  app_id: Netlify
+  
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
