@@ -5,7 +5,10 @@ short_title: "Social Media"
 categories: jekyll update
 basename: "social-media"
 ---
-*Social media in the hands of corporations for the purpose of extracting capital leaves our society open to nefarious meddling. We have seen this in the form of shady parties buying ads on Facebook that are either fake, inflamatory, etc., to foment negative discourse and divide our populations. This type of psyop can be used by anyone, a different country to benefit them, a nefarious group of people who want to slant our social web.*
+*Social media in the hands of corporations for the purpose of extracting capital leaves our society open to nefarious meddling. We have seen this in the form of shady parties buying ads on Facebook that are either fake, inflammatory, etc., to foment negative discourse and divide our populations. This type of psyop can be used by anyone, a different country to benefit them, a nefarious group of people who want to slant our social web.*
+
+There is a Gitlab project for the development of this idea [here](https://gitlab.com/hexiea_feint/common-reach).
+
 ## What do we do
 * Distribute social media
 	* Each person/organization owns their own data on their own devices.
