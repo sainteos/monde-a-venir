@@ -11,7 +11,7 @@ email: hexiea.feint@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
   "On a besoin de changer." We need to change. Let's be exacting in our actions.
   Let's paint the future together. Ensemble.
-baseurl: "/monde-a-venir" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 gitlab_username:  hexiea_feint
 
