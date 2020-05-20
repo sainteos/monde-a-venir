@@ -13,11 +13,9 @@
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 40px;
+    line-height: 35px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    margin-right: 15px;
-    float: left;
+    margin-bottom: 0px;
 
     &,
     &:visited {
@@ -28,15 +26,11 @@
 .site-subtitle {
     font-size: 18px;
     font-weight: 200;
-    line-height: 44px;
+    line-height: 10px;
     margin-bottom: 0;
     font-family: cursive;
-    float: left;
-    @include media-query($on-palm) {
-        position: fixed;
-        top: 25px;
-        left: 30px;
-    }
+    color: $brand-color;
+    padding-left: 10px;
 }
 
 .site-nav {
