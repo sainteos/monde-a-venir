@@ -13,9 +13,10 @@
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 40px;
     letter-spacing: -1px;
     margin-bottom: 0;
+    margin-right: 15px;
     float: left;
 
     &,
@@ -24,9 +25,18 @@
     }
 }
 
+.site-subtitle {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 44px;
+    margin-bottom: 0;
+    font-family: cursive;
+    font-style: italic normal;
+}
+
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 35px;
 
     .menu-icon {
         display: none;
