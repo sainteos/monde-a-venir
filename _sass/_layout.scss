@@ -31,7 +31,12 @@
     line-height: 44px;
     margin-bottom: 0;
     font-family: cursive;
-    font-style: italic normal;
+    float: left;
+    @include media-query($on-palm) {
+        position: fixed;
+        top: 25px;
+        left: 30px;
+    }
 }
 
 .site-nav {
