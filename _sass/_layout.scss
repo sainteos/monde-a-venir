@@ -33,6 +33,10 @@
     padding-left: 10px;
 }
 
+.trigger-br {
+    display: none;
+}
+
 .site-nav {
     float: right;
     line-height: 35px;
@@ -164,6 +168,10 @@
 }
 
 @include media-query($on-palm) {
+    .trigger-br {
+        display: block;
+    }
+
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
