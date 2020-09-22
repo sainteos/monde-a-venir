@@ -5,6 +5,7 @@ short_title: "Homes"
 categories: jekyll update
 basename: "homes"
 ---
+## Creating a housing exchange system thus ending commodification of a basic life necessity
 *For the purpose of achieving a 0% homeless rate, many changes can be made in the residential sector. This will require the collectivisation of residential property. The ways this can be done are as follows:*
 
 1. Mortgages become dissolved/released
@@ -17,3 +18,5 @@ basename: "homes"
 8. People without homes use the database to find one
 9. Moving between homes is still possible by using the database
 10. Choose new place, move, your previous place goes in database
+
+##  housing is guaranteed. there are plenty of empty places in communities that could have people living in and thereby bettering their life
