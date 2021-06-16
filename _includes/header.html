@@ -18,7 +18,7 @@
       <div class="trigger">
         {% for method in site.methods %}
           {% if method.short_title %}
-          <a class="page-link" href="{{ method.url | prepend: site.baseurl }}">{{ method.short_title }}</a>
+          <a class="page-link" href="{{ method.url | prepend: site.baseurl | append: ".html" }}">{{ method.short_title }}</a>
           {% endif %}
         {% endfor %}
       </div>
