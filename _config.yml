@@ -23,6 +23,11 @@ permalink: /:categories/:year/:month/:day/:title
 markdown: kramdown
 exclude: ["README.md"]
 
+collections:
+  methods:
+    output: true
+    permalink: /:name
+
 # Precommit checks
 pre-commit:
   - check: FrontMatterVariableExists
